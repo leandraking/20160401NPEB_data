@@ -8,3 +8,9 @@ We first create genealogies using the program msms (which must be downloaded bef
  If we don't know what the true left clade right clade partitions are for samples greater than 2, we might want to average over more than one partitions.  The number of parittions is set by the $numPartitions variable.  In practice, it doesn't really make much of a difference, so we always set numPartitions to 1.
  
  The program 20160315_Putting_Everything_Together.R calculates the average MSE for each set of parameters.
+ 
+ The file 20150421NPEBhumanDataNaturePaper-Copy1.ipynb retrieves the distribution of the number of mutations in the neutral loci dataset from Gronau et al (2011).  The file 20160408NPEB_data_IR-Copy1.ipynb uses our method on this data.
+ 
+ Figure3plot.R produces the plot in figure 3.
+ 
+ 
